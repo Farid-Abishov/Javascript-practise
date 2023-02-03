@@ -1,20 +1,9 @@
-// var Student ={
-//     name:"Farid",
-//     surname:"Abishov",
-//     age:20,
-// }
-// console.log(Student);
-
-// function slm(){
-//     console.log("hello world");
-// }
-// slm()
+document.getElementById("text").style.color="red";
+document.getElementById("text").style.fontSize="50px";
+document.getElementById("text").style.backgroundColor="black";
+document.body.style.backgroundColor="blue"
 
 
-var Person=["Ferid","Abishov",20,null,undefined]
-console.log(Person);
-
-cem=0;
-for( let i=0;i<10;i++){
-    console.log(cem=cem+i);
-}
+var result;
+result=document.getElementById("text").id;
+console.log(result);
