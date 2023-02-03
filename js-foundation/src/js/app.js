@@ -1,2 +1,6 @@
-var Person=["Ferid","Abishov",20,];
-console.log(Person[0]);
+var Student ={
+    name:"Farid",
+    surname:"Abishov",
+    age:20,
+}
+console.log(Student);
