@@ -1,9 +1,22 @@
-document.getElementById("text").style.color="red";
-document.getElementById("text").style.fontSize="50px";
-document.getElementById("text").style.backgroundColor="black";
-document.body.style.backgroundColor="blue"
+function greating(msg){
+    console.log(msg);
+}
+greating("Hi")
+greating("how are u")
+greating("what is ur name")
 
+function yashesablama(dogumili){
+    console.log(new Date().getFullYear()-dogumili)
+}
 
-var result;
-result=document.getElementById("text").id;
-console.log(result);
+yashesablama(2002);
+yashesablama(2003);
+yashesablama(2000);
+yashesablama(1980);
+yashesablama(2010);
+
+let a,b;
+function sahehesablama(a,b){
+    console.log(a*b)
+}
+sahehesablama(4,5)
