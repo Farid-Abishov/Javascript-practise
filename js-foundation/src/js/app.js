@@ -45,3 +45,18 @@ for(let index=0;index<sectiononeDesing.length;index++){
     element.style.borderRadius=section1css.border_radius+"px "
 
 }
+
+//ededin tam hisesinin sayin tapmaq
+var a=183987236.3332;
+var b=parseInt(a);
+console.log(b)
+var c=b.toString()
+console.log(c.length)
+// for for in ,for of, for each
+var Person21=["ferid","Zaur","Cumsud"]
+ for (const key in Person21) {
+    
+        const element = Person21[key];
+        console.log(element)
+    
+ }
