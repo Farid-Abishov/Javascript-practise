@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Disable Submit Button Example</title>
+  </head>
+  <body>
+    <form>
+      <input type="checkbox" id="myCheckbox" onchange="checkForm()" />
+      <label for="myCheckbox">I agree to the terms and conditions</label><br />
+      <input type="submit" id="mySubmitButton" value="Submit" disabled />
+    </form>
+
+    <script>
+        //checkbox check edilmemis submit olmasin
+      function checkForm() {
+        const checkbox = document.getElementById("myCheckbox");
+        const submitButton = document.getElementById("mySubmitButton");        
+        if (checkbox.checked) {
+          submitButton.disabled = false;
+        } else {
+          submitButton.disabled = true;
+        }
+      }
+    </script>
+  </body>
+</html>

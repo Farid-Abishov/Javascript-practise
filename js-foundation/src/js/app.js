@@ -1,30 +1,29 @@
-// // Html tagi secerek mudaxile etmek
-// const word=document.querySelector("#demo");
-// word.innerHTML="salam";
-// // Obyektden miras almaq
-// var person={
-//     Name:"Ferid",
-//     Surname:"Abishov",
-//     age:20
-// }
-// var person1=new Object(person);
-// console.log(person1);
-// // Arrayden miras almaq
-// var Arr=[1,2,3,4,5,];
-// var Arr2=new Array(Arr);
-// console.log(Arr2);
+// // // Obyektden miras almaq
+// // var person={
+// //     Name:"Ferid",
+// //     Surname:"Abishov",
+// //     age:20
+// // }
+// // var person1=new Object(person);
+// // console.log(person1);
 
-// //functiondan miras almaq inheritance
-// function Alldata(name,surname,age){
-//     this.name=name,
-//     this.surname=surname,
-//     this.age=age
-// }
-// var Person2=new Alldata("Orxan","Zeynalli",30);
-// console.log(Person2);
+// // // Arrayden miras almaq
+// // var Arr=[1,2,3,4,5,];
+// // var Arr2=new Array(Arr);
+// // console.log(Arr2);
 
-// jsle functionla imagelerin propertilerin deyismek 
 
+// // //functiondan miras almaq inheritance
+// // function Alldata(name,surname,age){
+// //     this.name=name,
+// //     this.surname=surname,
+// //     this.age=age
+// // }
+// // var Person2=new Alldata("Orxan","Zeynalli",30);
+// // console.log(Person2);
+
+
+// // jsle functionla imagelerin propertilerin deyismek 
 function Getcss(width,height,object_fit,border_radius){
     this.height=height,
     this.width=width,
@@ -46,17 +45,6 @@ for(let index=0;index<sectiononeDesing.length;index++){
 
 }
 
-//ededin tam hisesinin sayin tapmaq
-var a=183987236.3332;
-var b=parseInt(a);
-console.log(b)
-var c=b.toString()
-console.log(c.length)
-// for for in ,for of, for each
-var Person21=["ferid","Zaur","Cumsud"]
- for (const key in Person21) {
-    
-        const element = Person21[key];
-        console.log(element)
-    
- }
+
+
+
